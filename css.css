@@ -16,7 +16,7 @@ and open the template in the editor.
 
 /*Estilos body*/
 body{
-      
+      background-color: black;
     
 }
 
@@ -71,24 +71,102 @@ body{
   width: 50vw;
 
 }
+.mein{
+   
+    
+    background-attachment: fixed;
+    width: 100%;
+    height: 600vw;
+    
+}
+
+/*
 /* Diseño para tabletas */ 
 @media screen and (min-width: 320px) {
-	
+	   .banner{
+ background-position-y: -10vw;
+  height: 400px;
+  
+    }
+    
+.fotoper img{    
+     top:30vw;
+   left: 30%;
+  width: 40vw;
+z-index:1000;
+    }
+    
+.mein{
+   position: absolute;
+    top:60vw;    
+    width: 100%;
+    height: 600vw;
+   
+    }
+}
+p{
+    color:white;
 }
 /* Diseño para tabletas */ 
 @media screen and (min-width: 480px) {
-	
+	   .banner{
+ background-position-y: -18vw;
+  height: 400px;
+  
+    }
+    
+.fotoper img{    
+     top:20vw;
+   left: 40%;
+  width: 20vw;
+
+    }
 }
 /* Diseño para tabletas */ 
 @media screen and (min-width: 768px) {
-	
+   .banner{
+ background-position-y: -18vw;
+  height: 400px;
+  
+    }
+    
+.fotoper img{    
+     top:20vw;
+   left: 40%;
+  width: 20vw;
+
+    }	
 }
 /* Diseño para tabletas */ 
 @media screen and (min-width: 1024px) {
-	
+      .banner{
+ background-position-y: -15vw;
+  height: 400px;
+  
+    }
+    
+.fotoper img{    
+     top:28
+         vw;
+   left: 40%;
+  width: 20vw;
+
+    }          
+     
 }
 
 /* Diseño para PC */ 
 @media screen and (min-width: 1200px) {
-	
+    .banner{
+ background-position-y: -18vw;
+  height: 400px;
+  
+    }
+    
+.fotoper img{    
+     top:20vw;
+   left: 40%;
+  width: 20vw;
+
+    }
 }
