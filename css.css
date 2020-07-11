@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 jul. 2020, 15:59:11
+    Author     : Z
+*/
+
+/*Estilos por defecto*/
+* {
+  margin:  0;
+  padding: 0;
+}
+
+/*Estilos body*/
+body{
+      
+    
+}
+
+
+/*Estilo Header*/
+.banner{
+  background-image:url("img/imgbaner.png"); 
+ background-repeat: no-repeat;
+ background-size: 100%;
+  height: 250px;
+  background-attachment:  fixed;
+  
+
+  
+}
+.baner{
+   
+    
+}
+
+.cir{
+
+    /*position: relative;
+    left: 28%;
+/*top: 55px;*/
+}
+.circulo{
+ 
+
+   
+ 
+ 
+}
+/*
+.circulo>.fotoper img{
+    width: 50%;
+    height: 50%;
+ 
+}*/
+
+.fotoper{
+ 
+  
+    
+}
+.fotoper img{
+     position:  relative;
+     left: 25%;
+     top:40vw;
+      border: 2px solid black;
+  border-radius: 30%;
+  width: 50vw;
+
+}
+/* Diseño para tabletas */ 
+@media screen and (min-width: 320px) {
+	
+}
+/* Diseño para tabletas */ 
+@media screen and (min-width: 480px) {
+	
+}
+/* Diseño para tabletas */ 
+@media screen and (min-width: 768px) {
+	
+}
+/* Diseño para tabletas */ 
+@media screen and (min-width: 1024px) {
+	
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1200px) {
+	
+}
