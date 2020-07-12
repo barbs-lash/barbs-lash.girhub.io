@@ -16,76 +16,92 @@ and open the template in the editor.
 
 /*Estilos body*/
 body{
-      background-color: black;
-    
+      background-image: url("img/44.jpg");
+    background-repeat: no-repeat;
+ 
+  
+  background-attachment:  fixed;
 }
-
 
 /*Estilo Header*/
 .banner{
   background-image:url("img/imgbaner.png"); 
  background-repeat: no-repeat;
  background-size: 100%;
-  height: 250px;
+  /*height: 80vw;*/
   background-attachment:  fixed;
   
 
   
 }
-.baner{
-   
-    
-}
+/*estilo imagen*/
 
-.cir{
-
-    /*position: relative;
-    left: 28%;
-/*top: 55px;*/
-}
-.circulo{
- 
-
-   
- 
- 
-}
-/*
-.circulo>.fotoper img{
-    width: 50%;
-    height: 50%;
- 
-}*/
-
-.fotoper{
- 
-  
-    
-}
 .fotoper img{
      position:  relative;
      left: 25%;
      top:40vw;
       border: 2px solid black;
-  border-radius: 30%;
+  border-radius: 100%;
   width: 50vw;
 
 }
+/*estilo centro*/
 .mein{
-   
-    
-    background-attachment: fixed;
     width: 100%;
-    height: 600vw;
-    
+  overflow: hidden;
+   
+  
 }
+.maiin{
+  
+padding: 20px;
+
+}
+
+
+.etiq img{
+  width: 100%;
+   
+}
+
+.boton1{
+     width: 100%;
+     text-align: center;
+}
+.boton1 a{
+    position:  relative;
+    font-size:10vw;
+    width: 100%;
+    color:gold;
+    background-color:black;
+  border: 4px solid black;
+  border-radius: 20%;
+ 
+ 
+  
+ 
+}
+
+.fotter{
+    position:  absolute;
+    background-color:black;
+    width: 100%;
+    height: 10vw;
+     color:white;
+     text-align: center;
+     font-size: 2.5em;
+    
+  
+   
+}
+
 
 /*
 /* Diseño para tabletas */ 
 @media screen and (min-width: 320px) {
 	   .banner{
  background-position-y: -10vw;
-  height: 400px;
+ /* height: 400px;*/
   
     }
     
@@ -100,19 +116,17 @@ z-index:1000;
    position: absolute;
     top:60vw;    
     width: 100%;
-    height: 600vw;
-   
+    
+   z-index: 500;
     }
 }
-p{
-    color:white;
-}
+
 /* Diseño para tabletas */ 
 @media screen and (min-width: 480px) {
 	   .banner{
- background-position-y: -18vw;
+ /*background-position-y: -18vw;*/
   height: 400px;
-  
+  background-size: contain;
     }
     
 .fotoper img{    
@@ -125,8 +139,9 @@ p{
 /* Diseño para tabletas */ 
 @media screen and (min-width: 768px) {
    .banner{
- background-position-y: -18vw;
-  height: 400px;
+       
+ /*background-position-y: -18vw;*/
+ /* height: 400px;*/
   
     }
     
@@ -140,14 +155,13 @@ p{
 /* Diseño para tabletas */ 
 @media screen and (min-width: 1024px) {
       .banner{
- background-position-y: -15vw;
-  height: 400px;
+ /*background-position-y: -15vw;*/
+ /* height: 400px;*/
   
     }
     
 .fotoper img{    
-     top:28
-         vw;
+     top:28vw;
    left: 40%;
   width: 20vw;
 
@@ -159,7 +173,7 @@ p{
 @media screen and (min-width: 1200px) {
     .banner{
  background-position-y: -18vw;
-  height: 400px;
+  /*height: 400px;*/
   
     }
     
