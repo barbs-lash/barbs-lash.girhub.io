@@ -18,7 +18,7 @@ and open the template in the editor.
 body{
       background-image: url("img/44.jpg");
     background-repeat: no-repeat;
- 
+ background-size: cover;
   
   background-attachment:  fixed;
 }
@@ -43,19 +43,23 @@ body{
       border: 2px solid black;
   border-radius: 100%;
   width: 50vw;
+  z-index: 1100;
 
 }
 /*estilo centro*/
+
 .mein{
     width: 100%;
+    height: 490vw;
   overflow: hidden;
    
   
 }
 .maiin{
-  
+    position: relative;
+  top: 28vw;
 padding: 20px;
-
+ 
 }
 
 
@@ -67,16 +71,19 @@ padding: 20px;
 .boton1{
      width: 100%;
      text-align: center;
+     
+     
 }
 .boton1 a{
     position:  relative;
-    font-size:10vw;
+    font-size:12vw;
     width: 100%;
     color:gold;
     background-color:black;
-  border: 4px solid black;
-  border-radius: 20%;
- 
+  border: 5px solid black;
+  border-radius: 10%;
+ top:25vw;
+
  
   
  
@@ -86,87 +93,281 @@ padding: 20px;
     position:  absolute;
     background-color:black;
     width: 100%;
-    height: 10vw;
+   /* height: 10vw;*/
      color:white;
      text-align: center;
-     font-size: 2.5em;
+     font-size: 3em;
     
   
    
 }
 
+.foter{
+    position: relative;
+    top:99%;
+}
 
+ .vide{
+       overflow: hidden;
+      position: relative;
+      left: 8%;
+              z-index: 1100;
+         width: 99%;
+        top:25vw;
+         margin-left: 6vw;
+         margin-right: 6vw;
+         justify-content: center;
+   }
 /*
 /* Diseño para tabletas */ 
 @media screen and (min-width: 320px) {
-	   .banner{
+	/*   .banner{
  background-position-y: -10vw;
  /* height: 400px;*/
   
-    }
-    
+   /* }
+    /*
 .fotoper img{    
      top:30vw;
    left: 30%;
   width: 40vw;
 z-index:1000;
     }
-    
+    /*
 .mein{
    position: absolute;
-    top:60vw;    
+    top:33vw;    
     width: 100%;
     
    z-index: 500;
-    }
+    }*/
+     
+   .mein{
+        height: 480vw;
+   }
+   .vide{
+       ;
+      left: 15%;
+       
+        
+        top:35vw;
+       
+   }
+
 }
 
 /* Diseño para tabletas */ 
 @media screen and (min-width: 480px) {
-	   .banner{
+	/*   .banner{
  /*background-position-y: -18vw;*/
-  height: 400px;
+  /*height: 400px;
   background-size: contain;
     }
-    
-.fotoper img{    
-     top:20vw;
-   left: 40%;
-  width: 20vw;
+  */  
+    .fotoper img{    
+    /* top:20vw;*/
+  left: 30%;
+  width: 40vw;
 
     }
+  
+    .mein{
+        height: 450vw;
+   }
+   .vide{
+       
+      left: 25%;
+       
+        
+       
+       
+   }
+   .foter{
+    position: relative;
+    top:99%;
 }
+
+    
+}
+
+
 /* Diseño para tabletas */ 
 @media screen and (min-width: 768px) {
-   .banner{
-       
- /*background-position-y: -18vw;*/
- /* height: 400px;*/
-  
+    body{
+        
     }
-    
+  /* .banner{
+  /*background-position-y: -18vw;*/
+ /* height: 400px;*/
+      /*}
+  /* 
 .fotoper img{    
      top:20vw;
    left: 40%;
   width: 20vw;
 
     }	
+  */
+  .banner{
+      height: 40vw;
+      background-position-y: -15vw;
+  }
+  .baner{
+      
+  }
+  .fotoper img{
+      top:24vw;
+      width: 28vw;
+      left: 36%;
+  }
+  .mein{
+    
+     overflow: hidden;
+     width: 100%;
+     height: 160vw;
+  }
+  .maiin{
+      width: 100%;
+  position: relative; 
+      top:18vw;
+         
+  /* flex-direction:  row;  */
+   display: flex; 
+    justify-content:  space-between; 
+     
+     flex-wrap: wrap; 
+              
+  }
+  .etiq{
+    
+      
+    margin: 1vw;
+   width: 30vw;
+  
+    
+  
+  }
+  
+  .etiq img{
+     
+      width: 27vw;
+         
+  }
+  .boton1{
+      
+      position:  relative;
+      top:-5%;
+      z-index: 1000;
+  }
+  .boton1 a{
+       border: 6px solid black;
+      background-color: transparent;
+  }
+  .vide{
+       ;
+      left: 23%;
+      width: 60vw;       
+        top:20vw;
+       
+   }
+   .vide video{
+       width: 45vw;
+       
+   }
+  .fotter{
+   
+   
+   
+     text-align: center;
+     font-size: 15vw;
+    
+  
+   
+}
+.foter{
+    position: relative;
+    top:99%;
+}
 }
 /* Diseño para tabletas */ 
 @media screen and (min-width: 1024px) {
-      .banner{
+    .banner{
  /*background-position-y: -15vw;*/
  /* height: 400px;*/
   
     }
     
-.fotoper img{    
-     top:28vw;
-   left: 40%;
-  width: 20vw;
+    .fotoper img{    
+     top:24vw;
+   left: 35%;
+  width: 30vw;
 
-    }          
+    }
+   
+    
+   
+  .maiin{
+      width: 100%;
+  position: relative; 
+      top:18vw;
+         
+  
+   display: flex; 
+   /* justify-content:  space-between; */
      
+     flex-wrap: nowrap;
+              
+  }
+ 
+    .mein{
+    
+     overflow: hidden;
+     width: 100%;
+     height: 140vw;
+  }
+  .maiin{
+      width: 100%;
+  position: relative; 
+      top:18vw;
+         
+  /* flex-direction:  row;  */
+   display: flex; 
+    /*justify-content:  space-between; */
+     
+     /*flex-wrap:  wrap-reverse*/  
+              
+  }
+  article.etiq{
+      position: relative;
+    width: 20vw;
+   
+    margin-left: 1px;
+   
+  
+  }
+  
+  .etiq img{
+     
+     width: 13.5vw;
+         
+  }
+   
+    
+   .fotter{
+   
+   
+   
+     text-align: center;
+     font-size: 15vw;
+    
+  
+   
+}
+
+.foter{
+    position: relative;
+    top:99%;
+}
 }
 
 /* Diseño para PC */ 
@@ -176,11 +377,16 @@ z-index:1000;
   /*height: 400px;*/
   
     }
+      .mein{
+    
+    
+     height: 130vw;
+  }
     
 .fotoper img{    
-     top:20vw;
-   left: 40%;
-  width: 20vw;
+     top:22vw;
+   left: 35%;
+  width: 30vw;
 
     }
 }
