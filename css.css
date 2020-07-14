@@ -110,13 +110,16 @@ padding: 20px;
  .vide{
        overflow: hidden;
       position: relative;
-      left: 8%;
+      left: 6%;
               z-index: 1100;
          width: 99%;
         top:25vw;
          margin-left: 6vw;
          margin-right: 6vw;
          justify-content: center;
+   }
+   .vide video{
+       width: 80%;
    }
 /*
 /* Diseño para tabletas */ 
@@ -143,15 +146,17 @@ z-index:1000;
     }*/
      
    .mein{
-        height: 480vw;
+        height: 540vw;
    }
    .vide{
-       ;
-      left: 15%;
        
-        
-        top:35vw;
+      left: 1%;
        
+             
+       
+   }
+   .vide video{
+       width: 90%;
    }
 
 }
@@ -172,12 +177,12 @@ z-index:1000;
     }
   
     .mein{
-        height: 450vw;
+        height: 550vw;
    }
    .vide{
        
-      left: 25%;
-       
+      left: 2%;
+       width: 90%
         
        
        
